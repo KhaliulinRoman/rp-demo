@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.js": "/KhaliulinRoman/rp-demo/static/js/main.8371a2eb.chunk.js",
-    "main.js.map": "/KhaliulinRoman/rp-demo/static/js/main.8371a2eb.chunk.js.map",
+    "main.js": "/KhaliulinRoman/rp-demo/static/js/main.6038427e.chunk.js",
+    "main.js.map": "/KhaliulinRoman/rp-demo/static/js/main.6038427e.chunk.js.map",
     "runtime-main.js": "/KhaliulinRoman/rp-demo/static/js/runtime-main.5880f455.js",
     "runtime-main.js.map": "/KhaliulinRoman/rp-demo/static/js/runtime-main.5880f455.js.map",
-    "static/js/2.f66dd8a5.chunk.js": "/KhaliulinRoman/rp-demo/static/js/2.f66dd8a5.chunk.js",
-    "static/js/2.f66dd8a5.chunk.js.map": "/KhaliulinRoman/rp-demo/static/js/2.f66dd8a5.chunk.js.map",
+    "static/js/2.41e664bb.chunk.js": "/KhaliulinRoman/rp-demo/static/js/2.41e664bb.chunk.js",
+    "static/js/2.41e664bb.chunk.js.map": "/KhaliulinRoman/rp-demo/static/js/2.41e664bb.chunk.js.map",
     "index.html": "/KhaliulinRoman/rp-demo/index.html",
-    "static/js/2.f66dd8a5.chunk.js.LICENSE.txt": "/KhaliulinRoman/rp-demo/static/js/2.f66dd8a5.chunk.js.LICENSE.txt"
+    "static/js/2.41e664bb.chunk.js.LICENSE.txt": "/KhaliulinRoman/rp-demo/static/js/2.41e664bb.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5880f455.js",
-    "static/js/2.f66dd8a5.chunk.js",
-    "static/js/main.8371a2eb.chunk.js"
+    "static/js/2.41e664bb.chunk.js",
+    "static/js/main.6038427e.chunk.js"
   ]
 }
