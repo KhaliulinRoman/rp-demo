@@ -69,9 +69,8 @@ export const FeatureStepper: React.FC = () => {
 
   const handleNextClick: () => void = () => {
     let newStep = step + 1;
-    const maxStep = steps.length - 2 > 0 ? steps.length - 2 : 0;
-    if (newStep > maxStep) {
-      newStep = maxStep;
+    if (newStep > steps.length - 2) {
+      newStep = steps.length - 2;
     }
     setStep(newStep);
   };
@@ -97,10 +96,10 @@ export const FeatureStepper: React.FC = () => {
       </Box>
       <Hidden mdUp>
         <Box alignSelf="flex-end">
-          <IconButton onClick={handlePrevClick}>
+          <IconButton onClick={handlePrevClick} disabled={step === 0}>
             <KeyboardArrowLeft fontSize="large" />
           </IconButton>
-          <IconButton onClick={handleNextClick}>
+          <IconButton onClick={handleNextClick} disabled={step === steps.length - 2}>
             <KeyboardArrowRight fontSize="large" />
           </IconButton>
         </Box>
